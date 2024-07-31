@@ -3,8 +3,9 @@
 namespace App\Utils;
 
 use App\Middleware\Middleware;
+use App\Utils\Contracts\RouteStrategy;
 
-class Route {
+class Route implements RouteStrategy {
     private static $route;
     public $listRoutes = [];
 
