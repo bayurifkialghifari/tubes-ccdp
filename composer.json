@@ -1,0 +1,26 @@
+{
+    "name": "keren/tubesccdp",
+    "description": "Tubes CCDP",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bayurifkialghifari",
+            "email": "bayurifkialgh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "vlucas/phpdotenv": "^5.6",
+        "nesbot/carbon": "^3.7",
+        "eftec/bladeone": "^4.13"
+    },
+    "require-dev": {
+        "robmorgan/phinx": "^0.16.2",
+        "symfony/var-dumper": "^7.1"
+    }
+}
