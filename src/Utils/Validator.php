@@ -47,7 +47,7 @@ class Validator {
 
             return false;
         } else {
-            return $this->data;
+            return $data;
         }
     }
 

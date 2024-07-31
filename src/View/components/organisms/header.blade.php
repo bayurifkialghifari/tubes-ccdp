@@ -1,0 +1,12 @@
+@component('components.atoms.header-navbar')
+    @component('components.molecules.header-sidebar-toggle')
+    @endcomponent
+    @component('components.atoms.header-navbar-collapse')
+        @component('components.atoms.header-navbar-ul')
+            @component('components.atoms.header-navbar-li')
+                @component('components.molecules.header-navbar-item')
+                @endcomponent
+            @endcomponent
+        @endcomponent
+    @endcomponent
+@endcomponent

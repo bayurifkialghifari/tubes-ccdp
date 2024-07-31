@@ -4,12 +4,13 @@ use App\Utils\Route;
 
 $route = Route::getInstance();
 $route->get('/', \App\Controller\HomeController::class, 'index');
-$route->get('/login', \App\Controller\HomeController::class, 'login')->middleware('guest');
-$route->get('/dashboard', \App\Controller\HomeController::class, 'dashboard')->middleware('auth');
-$route->get('/test-login', \App\Controller\HomeController::class, 'testLogin');
-$route->get('/logout', \App\Controller\HomeController::class, 'logout');
 
-$route->get('/test-input', \App\Controller\HomeController::class, 'testInput');
-$route->post('/test-input', \App\Controller\HomeController::class, 'testInputPost');
+// Authentication
+$route->get('/login', \App\Controller\LoginController::class, 'index')->middleware('guest');
+$route->post('/login', \App\Controller\LoginController::class, 'authenticate')->middleware('guest');
+$route->post('/logout', \App\Controller\LoginController::class, 'logout');
+
+$route->get('/dashboard', \App\Controller\HomeController::class, 'dashboard')->middleware('auth');
+
 
 $route->checkRoute();

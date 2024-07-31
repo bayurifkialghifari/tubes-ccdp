@@ -19,6 +19,11 @@ function url($url) {
     return $urlClass->getBaseUrl() . $url;
 }
 
+function session($key) {
+    $session = Session::getInstance();
+    return $session->get($key);
+}
+
 function flash($key = 'success', $message = '') {
     $session = Session::getInstance();
     $session->flash($key, $message);
