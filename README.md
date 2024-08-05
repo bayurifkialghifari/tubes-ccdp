@@ -13,13 +13,24 @@
 # Design Pattern
 
 `front controller` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/public/index.php">Example</a> <a href="https://webdevetc.com/blog/the-front-controller-design-pattern-in-php/"> Explanation</a><br>
-`⁠⁠singleton` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Utils/Session.php">Example</a> <a href="https://refactoring.guru/design-patterns/singleton/php/example/"> Explanation</a><br>
+
+`⁠⁠singleton` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Utils/Session.php#L8">Example</a> <a href="https://refactoring.guru/design-patterns/singleton/php/example/"> Explanation</a><br>
+
 `⁠⁠mvc` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/tree/main/src">Example</a> <a href="https://www.geeksforgeeks.org/mvc-design-pattern/"> Explanation</a><br>
+
 `⁠⁠builder pattern` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Utils/Model.php">Example</a> <a href="https://refactoring.guru/design-patterns/builder/php/example"> Explanation</a><br>
+
 `⁠⁠attomic design` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/tree/main/src/View/components">Example</a> <a href="https://dev.to/sanfra1407/how-to-organize-your-components-using-the-atomic-design-dj3"> Explanation</a><br>
-`⁠⁠Strategy` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Utils/Route.php">Example</a> <a href="https://refactoring.guru/design-patterns/strategy/php/example"> Explanation</a><br>
+
+`⁠⁠Strategy` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Utils/Route.php#L6">Example</a> <a href="https://refactoring.guru/design-patterns/strategy/php/example"> Explanation</a><br>
+
 `⁠⁠tell dont ask` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Utils/Url.php">Example</a> <a href="https://medium.com/@abel_rincon/the-tell-dont-ask-principle-and-the-law-of-demeter-in-object-oriented-programming-8ad6ca1abd4"> Explanation</a><br>
-`⁠⁠repository pattern` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Controller/LoginController.php">Example</a> <a href="https://doeken.org/blog/repository-pattern"> Explanation</a><br>
+
+`⁠⁠repository pattern` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Controller/LoginController.php#L26">Example</a> <a href="https://doeken.org/blog/repository-pattern"> Explanation</a><br>
+
+`PRG pattern` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Utils/Validator.php#L23">Example</a> <a href="https://www.phptutorial.net/php-tutorial/php-prg/"> Explanation</a><br>
+
+`Mediator pattern` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Utils/Route.php#L22">Example</a> <a href="https://refactoring.guru/design-patterns/mediator/php/example"> Explanation</a><br>
 
 
 # WADUH
