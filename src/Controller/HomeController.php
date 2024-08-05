@@ -10,8 +10,4 @@ class HomeController extends Controller {
         
         $this->loadView('home', compact('name'));
     }
-
-    public function dashboard() {
-        $this->loadView('dashboard');
-    }
 }

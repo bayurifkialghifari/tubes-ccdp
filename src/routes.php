@@ -10,7 +10,7 @@ $route->get('/login', \App\Controller\LoginController::class, 'index')->middlewa
 $route->post('/login', \App\Controller\LoginController::class, 'authenticate')->middleware('guest');
 $route->post('/logout', \App\Controller\LoginController::class, 'logout');
 
-$route->get('/dashboard', \App\Controller\HomeController::class, 'dashboard')->middleware('auth');
+$route->get('/dashboard', \App\Controller\DashboardController::class, 'index')->middleware('auth');
 
 
 $route->checkRoute();

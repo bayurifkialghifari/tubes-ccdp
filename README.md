@@ -32,6 +32,10 @@
 
 `Mediator pattern` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Utils/Route.php#L22">Example</a> <a href="https://refactoring.guru/design-patterns/mediator/php/example"> Explanation</a><br>
 
+`Chain of Responsibility` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/tree/main/src/Middleware">Example</a> <a href="https://refactoring.guru/design-patterns/chain-of-responsibility/php/example"> Explanation</a><br>
+
+`State pattern` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/tree/main/src/Middleware">Example</a> <a href="https://refactoring.guru/design-patterns/state/php/example"> Explanation</a><br>
+
 
 # WADUH
 
