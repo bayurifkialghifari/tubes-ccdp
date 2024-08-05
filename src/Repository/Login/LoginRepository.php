@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Repository;
+namespace App\Repository\Login;
 
 use App\Utils\Auth;
 
-class LoginRepository {
+class LoginRepository implements LoginRepositoryInterface{
     public function __construct(public $auth = new Auth) { }
 
     public function authenticate($username, $password) {

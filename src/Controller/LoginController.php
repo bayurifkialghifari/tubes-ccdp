@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use App\Repository\LoginRepository;
+use App\Repository\Login\LoginRepository;
 use App\Utils\Controller;
 
 class LoginController extends Controller {
