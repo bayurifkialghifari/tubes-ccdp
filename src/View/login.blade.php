@@ -12,6 +12,8 @@
                         <p class="lead">
                             Sign in to your account to continue
                         </p>
+                        <p>Email : admin@admin.com</p>
+                        <p>Password : password</p>
                     </div>
 
                     <div class="card">
