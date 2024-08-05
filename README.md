@@ -18,7 +18,7 @@
 `⁠⁠builder pattern` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Utils/Model.php">Example</a> <a href="https://refactoring.guru/design-patterns/builder/php/example"> Explanation</a><br>
 `⁠⁠attomic design` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/tree/main/src/View/components">Example</a> <a href="https://dev.to/sanfra1407/how-to-organize-your-components-using-the-atomic-design-dj3"> Explanation</a><br>
 `⁠⁠Strategy` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Utils/Route.php">Example</a> <a href="https://refactoring.guru/design-patterns/strategy/php/example"> Explanation</a><br>
-`⁠⁠tell dont ask` <br>
+`⁠⁠tell dont ask` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Utils/Url.php">Example</a> <a href="https://medium.com/@abel_rincon/the-tell-dont-ask-principle-and-the-law-of-demeter-in-object-oriented-programming-8ad6ca1abd4"> Explanation</a><br>
 `⁠⁠repository pattern` <a href="https://github.com/bayurifkialghifari/tubes-ccdp/blob/main/src/Controller/LoginController.php">Example</a> <a href="https://doeken.org/blog/repository-pattern"> Explanation</a><br>
 
 
